@@ -1,5 +1,5 @@
 {
-  "name": "kurento-one2one-call",
+  "name": "kurento-composite-call",
   "version": "6.1.1-dev",
   "private": true,
   "scripts": {
