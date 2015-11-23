@@ -1,0 +1,13 @@
+{
+  "name": "kurento-utils",
+  "homepage": "https://github.com/Kurento/kurento-utils-bower",
+  "_release": "6548b8da03",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "6548b8da0323b3c4208c73af8847f8bc2ef54a83"
+  },
+  "_source": "git://github.com/Kurento/kurento-utils-bower.git",
+  "_target": "master",
+  "_originalSource": "kurento-utils"
+}
