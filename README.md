@@ -12,9 +12,9 @@ Running this tutorial
 
 In order to run this tutorial, please read the following instructions.
 
-git clone https://github.com/srigaurav1986/KurentoExample.git
-npm install
-npm start
+git clone https://github.com/srigaurav1986/KurentoExample.git  
+npm install  
+npm start  
 
 If you have problems installing any of the dependencies, please remove them and clean the npm cache, and try to install them again:
 
