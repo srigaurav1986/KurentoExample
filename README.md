@@ -18,8 +18,8 @@ npm start
 
 If you have problems installing any of the dependencies, please remove them and clean the npm cache, and try to install them again:
 
-rm -r node_modules
-npm cache clean
+rm -r node_modules  
+npm cache clean  
 
 Access the application connecting to the URL http://localhost:8080/ through a WebRTC capable browser (Chrome, Firefox).
 
