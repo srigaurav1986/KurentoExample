@@ -12,7 +12,7 @@ Running this tutorial
 
 In order to run this tutorial, please read the following instructions.
 
-git clone https://github.com/srigaurav1986/KurentoExample.git 
+git clone https://github.com/srigaurav1986/KurentoExample.git   
 cd KurentoExample   
 npm install  
 npm start  
