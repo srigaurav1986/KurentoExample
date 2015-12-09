@@ -12,7 +12,8 @@ Running this tutorial
 
 In order to run this tutorial, please read the following instructions.
 
-git clone https://github.com/srigaurav1986/KurentoExample.git  
+git clone https://github.com/srigaurav1986/KurentoExample.git 
+cd KurentoExample   
 npm install  
 npm start  
 
@@ -25,7 +26,15 @@ Access the application connecting to the URL http://localhost:8080/ through a We
 
 Note
 
-These instructions work only if Kurento Media Server is up and running in the same machine than the tutorial. However, it is possible to locate the KMS in other machine simple adding the argument ws_uri to the npm execution command, as follows:
+These instructions work only if Kurento Media Server is up and running in the same machine than the tutorial. 
+Steps to run KMS 6.0 on Ubuntu 14.04 are :  
+
+echo "deb http://ubuntu.kurento.org trusty kms6" | sudo tee /etc/apt/sources.list.d/kurento.list  
+wget -O - http://ubuntu.kurento.org/kurento.gpg.key | sudo apt-key add -  
+sudo apt-get update  
+sudo apt-get install kurento-media-server-6.0  
+
+However, it is possible to locate the KMS in other machine simple adding the argument ws_uri to the npm execution command, as follows:
 
 npm start -- --ws_uri=ws://kms_host:kms_host:kms_port/kurento
 In this case you need to use npm version 2. To update it you can use this command:

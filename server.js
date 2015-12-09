@@ -11,8 +11,8 @@ app.set('port', process.env.PORT || 8080);
  */
 
 // Modify here the kurento media server address
-//const ws_uri = "ws://localhost:8888/kurento";
-const ws_uri = "ws://192.168.15.45:8888/kurento";
+const ws_uri = "ws://localhost:8888/kurento";
+//const ws_uri = "ws://192.168.15.45:8888/kurento";
 
 /*
  * Definition of global variables.
@@ -38,7 +38,6 @@ var port = app.get('port');
 var server = app.listen(port, function()
 {
     console.log('Mixing stream server started');
-    console.log('Connect to http://192.168.15.45:' + port + '/');
 });
 
 var WebSocketServer = wsm.Server;
